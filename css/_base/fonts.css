@@ -1,0 +1,71 @@
+@font-face {
+  font-family: "sintony";
+  font-weight: 400;
+  font-style: normal;
+  src: url("../../fonts/sintony/regular/sintony-regular-webfont.eot");
+  src: url("../../fonts/sintony/regular/sintony-regular-webfont.eot?#iefix") format("embedded-opentype"),
+       url("../../fonts/sintony/regular/sintony-regular-webfont.woff2") format("woff2"),
+       url("../../fonts/sintony/regular/sintony-regular-webfont.woff") format("woff"),
+       url("../../fonts/sintony/regular/sintony-regular.ttf") format("truetype"),
+       url("../../fonts/sintony/regular/sintony-regular-webfont.svg#sintonyregular") format("svg");
+}
+
+@font-face {
+    font-family: "sintony";
+    font-weight: 700;
+    font-style: normal;
+    src: url("../../fonts/sintony/bold/sintony-bold-webfont.eot");
+    src: url("../../fonts/sintony/bold/sintony-bold-webfont.eot?#iefix") format("embedded-opentype"),
+         url("../../fonts/sintony/bold/sintony-bold-webfont.woff2") format("woff2"),
+         url("../../fonts/sintony/bold/sintony-bold-webfont.woff") format("woff"),
+         url("../../fonts/sintony/bold/sintony-bold.ttf") format("truetype"),
+         url("../../fonts/sintony/bold/sintony-bold-webfont.svg#sintonybold") format("svg");
+}
+
+@font-face {
+    font-family: "lato";	
+    src: url("../../fonts/lato/bold/lato-boldbold.eot");
+    src: url("../../fonts/lato/bold/lato-boldbold.eot?#iefix") format("embedded-opentype"),
+         url("../../fonts/lato/bold/lato-boldbold.woff2") format("woff2"),
+         url("../../fonts/lato/bold/lato-boldbold.woff") format("woff"),
+         url("../../fonts/lato/bold/lato-bold.ttf") format("truetype"),
+         url("../../fonts/lato/bold/lato-bold.svg#latobold") format("svg");
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "lato";
+    font-weight: 400;
+    font-style: normal;
+    src: url("../../fonts/lato/regular/lato-regularregular.eot");
+    src: url("../../fonts/lato/regular/lato-regularregular.eot?#iefix") format("embedded-opentype"),
+         url("../../fonts/lato/regular/lato-regularregular.woff2") format("woff2"),
+         url("../../fonts/lato/regular/lato-regularregular.woff") format("woff"),
+         url("../../fonts/lato/regular/lato-regular.ttf") format("truetype"),
+         url("../../fonts/lato/regular/lato-regularregular.svg#latoregular") format("svg");
+}
+
+@font-face {
+    font-family: "lato";
+    font-weight: 700;
+    font-style: normal;
+    src: url("../../fonts/lato/semibold/lato-semiboldsemibold.eot");
+    src: url("../../fonts/lato/semibold/lato-semiboldsemibold.eot?#iefix") format("embedded-opentype"),
+         url("../../fonts/lato/semibold/lato-semiboldsemibold.woff2") format("woff2"),
+         url("../../fonts/lato/semibold/lato-semiboldsemibold.woff") format("woff"),
+         url("../../fonts/lato/semibold/lato-semibold.ttf") format("truetype"),
+         url("../../fonts/lato/semibold/lato-semiboldsemibold.svg#latosemibold") format("svg");
+}
+
+@font-face {
+    font-family: "Glyphicons Halflings";
+    font-weight: 400;
+    font-style: normal;
+    src: url("../../fonts/bootstrap/glyphicons-halflings-regular.eot");
+    src: url("../../fonts/bootstrap/glyphicons-halflings-regular.eot?#iefix") format("embedded-opentype"),
+         url("../../fonts/bootstrap/glyphicons-halflings-regular.woff2") format("woff2"),
+         url("../../fonts/bootstrap/glyphicons-halflings-regular.woff") format("woff"),
+         url("../../fonts/bootstrap/glyphicons-halflings-regular.ttf") format("truetype"),
+         url("../../fonts/bootstrap/glyphicons-halflings-regular#halflingsregular") format("svg");
+}

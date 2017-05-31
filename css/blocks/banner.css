@@ -1,0 +1,110 @@
+
+.banner {
+background: url(../../img/content/background.png) no-repeat;
+background-size: 100%;
+background-position: center;
+}
+
+.banner__top{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+background-color: #63c6ae; 
+font-family: sintony;
+font-weight: 400;
+font-size: 30px;
+text-transform: uppercase;
+text-align: center;
+color: white; 
+padding: 2% 3.2%;
+margin: 12% 30% 0% 30%;
+}
+.banner__middle{
+display: flex-inline;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+background-color: #000; 
+font-family: sintony;
+font-weight: 400;
+font-size: 17px;
+text-align: center;
+color: black; 
+color: white; 
+padding: 2%;
+margin: 0.2% 33.3%;
+flex-shrink: 2;
+}
+
+@media all and (max-width: 1600px){
+
+.banner__top{
+font-size: 25px;
+}
+.banner__middle{
+font-size:14px;
+}
+}
+
+
+@media all and (max-width: 1300px){
+
+.banner__top{
+font-size: 20px;
+}
+.banner__middle{
+font-size:12px;
+}
+a.banner__btn--buy {
+font-size: 14px;
+}
+}
+
+
+@media all and (max-width: 1050px){
+.banner__top {
+font-size: 14px;
+}
+.banner__middle{
+font-size:10px;
+}
+a.banner__btn--buy {
+font-size: 10px;
+}
+}
+@media all and (max-width: 920px){
+.banner__middle{
+font-size:8px;
+}
+}
+
+.banner__btn{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+margin: 3% 0% 9%;
+}
+
+.banner__btn--buy{
+font-family: sintony;
+font-weight: 400;
+font-size: 20px;
+text-transform: uppercase;
+text-decoration: none;
+color: rgba(255,255,255,1);
+border-radius: 3px;
+border: 1px solid rgba(255,255,255,1);	
+padding: 0.8% 1.2%;
+background-color: rgba(255,255,255,0)
+}
+.banner__btn--buy:hover  {
+color:#63c6ae;
+border-color: #63c6ae;
+}
+.banner__btn--buy:active {
+color:#3AE2CE;
+border-color: #3AE2CE;
+}
+

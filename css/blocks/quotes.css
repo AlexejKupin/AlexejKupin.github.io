@@ -1,0 +1,43 @@
+.quotes{
+background-color: #63c6ae;
+margin-right: -15px;
+}
+
+.quotes__text{
+font-family: sintony, arial, sans-serif;
+font-weight: normal;
+font-size: 30px;
+font-style: italic;
+color: #FFF;	
+text-align: center;
+margin:0 60px 0 60px;
+}
+
+.quotes__text--top{
+text-align: start;
+padding-top: 60px;
+font-size: 48px;
+}
+
+.quotes__text--bottom{
+text-align: end;
+padding-bottom: 30px;
+font-size: 48px;
+}
+
+.quotes__text--caption{
+font-family: sintony, arial, sans-serif;
+font-weight: normal;
+font-size: 18px;
+color: #FFF;	
+}
+
+.quotes__footer{
+height: 12px;
+background-color: #58b9a1;
+margin-top: 100px;
+}
+
+.posts__carousel-indicators{
+bottom: -50px;
+}

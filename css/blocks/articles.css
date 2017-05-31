@@ -1,0 +1,101 @@
+.articles__head {
+background-color: #63c6ae;
+margin: 0 -15px;
+}
+
+.articles__head--text{
+font-family: sintony, arial, sans-serif;
+font-weight: normal;
+font-size: 24px;
+text-transform: uppercase;
+color: white;
+padding: 15px 0;
+}
+
+.articles__photo {
+height: 278px;
+}
+.articles__photo-1{
+background: url(../../img/content/row-1-2.png);
+background-position: top;
+}
+.articles__photo-2{
+background: url(../../img/content/row-1-2.png);
+background-position: center;
+}
+.articles__photo-3{
+background: url(../../img/content/row-1-3.png);
+background-position: 50% 85%;
+}
+.articles__photo-4{
+background: url(../../img/content/row-1-4.png);
+background-position: center;
+}
+.articles__photo-5{
+background: url(../../img/content/row-1-5.png) ;
+background-position: 90% 75% ;
+}
+.articles__photo-6{
+background: url(../../img/content/row-1-6.png);
+background-position: right;
+}
+.articles__photo-7{
+background: url(../../img/content/row-2-1.png);
+background-position: left 2  0% ;
+}
+.articles__photo-8{
+background: url(../../img/content/row-2-2.png);
+background-position: center;
+}
+.articles__photo-9{
+background: url(../../img/content/row-2-3.png);
+background-position: center;
+}
+.articles__photo-10{
+background: url(../../img/content/row-2-4.png);
+background-position: center;
+}
+.articles__photo-11{
+background: url(../../img/content/row-2-5.png);
+background-position: center;
+}
+.articles__photo-12{
+background: url(../../img/content/row-2-6.png);
+background-position: center;
+}
+
+.articles__photo--about{
+font-family: Sintony, arial, sans-serif;
+font-weight: normal;
+font-size: 16px;
+color: white;
+}
+
+.articles__photo--data{
+font-family: Sintony, arial, sans-serif;
+font-weight: normal;
+font-size: 11px;
+color: #63c6ae;
+}
+
+.articles__photo--description {
+padding: 0 25px;
+height: 50%;
+border-top: 1px solid #555;
+background-color: #242a2c;
+margin: 15px -22px 0px -22px;
+position: relative;
+top: 50%;
+z-index: 10;
+display: none;
+}
+
+.articles__photo:hover .articles__photo--description {
+display: block;
+}
+
+
+.articles_carousel{
+background-color: #242a2c;
+padding: 0px 0;
+}

@@ -1,0 +1,103 @@
+
+.header {
+display: flex;
+flex-direction: row;
+background-color: #63c6ae; 
+justify-content: flex-end;
+align-items: center;
+}
+
+.nav {
+ list-style: none;
+ padding: 0 0 0 10px;
+ margin: 0;
+ background-color: #FFF; 
+ display: flex;
+ justify-content: flex-start;
+}
+
+.nav {
+ height: 72px;
+ width: 75%;
+}
+
+.header__logo {
+padding: 24px 33px 24px 0px;
+}
+
+.nav__main {
+display: flex;
+padding: 25px 0px;
+
+}
+
+.nav__main--text {
+ font-family: sintony;
+ font-weight: 700;
+ font-size: 14px;
+ text-decoration: none;
+ color: black;
+ text-transform: uppercase;
+ padding: 0px 24px;
+ text-align: center;
+ }
+
+.nav__sub--text {
+ font-family: sintony;
+ font-weight: 700;
+ font-size: 14px;
+ text-decoration: none;
+ color: white;
+ text-transform: uppercase;
+ padding: 10px 10px;
+ border-radius: 4px;
+ margin-right: 10px;
+ text-align: center;
+}
+ 
+.nav__sub {
+position: absolute;
+top: 71px;
+left: 0%;
+list-style: none;
+background-color: #63c6ae; 
+display:none;
+}
+
+.nav__sub {
+ width: 100%;
+ padding: 35px 0 35px 15.5%;
+}
+ 
+.nav__sub--item {
+
+}
+
+.nav__main:hover  .nav__sub {
+display: flex;
+}
+
+
+.nav__main:hover .nav__main--text{
+color: #53af99;
+}
+
+.nav__sub--text:hover {
+background-color: #53af99;
+}
+
+
+ .nav__sub--treangle::before{
+content: ''; 
+position: absolute;
+left: 27%; 
+top: -12px; 
+border: 6px solid transparent; 
+border-bottom: 6px solid #63c6ae;
+}
+
+@media all and (max-width: 860px){
+.nav__main--text  {
+font-size: 10px;
+}
+}

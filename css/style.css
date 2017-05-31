@@ -1,0 +1,14 @@
+/*Common styles*/
+@import url("_base/fonts.css");
+@import url("_base/common.css");
+@import url("_base/bootstrap.css");
+@import url("_base/bootstrap-theme.css");
+
+/*Block styles*/
+@import url("blocks/nav.css");
+@import url("blocks/banner.css");
+@import url("blocks/pager.css");
+@import url("blocks/articles.css");
+@import url("blocks/group.css");
+@import url("blocks/quotes.css");
+@import url("blocks/footer.css");

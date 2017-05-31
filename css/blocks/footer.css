@@ -1,0 +1,20 @@
+.footer{
+background-color: #242a2c;
+font-family: sintony, arial, sans-serif;
+font-weight: normal;
+font-size: 14px;
+padding-top: 40px;	
+color: #586367;
+}
+
+.footer__navBar--item{
+text-decoration: none;
+color: #586367;
+margin: 0% 15% 0 15%;
+line-height: 34px;
+}
+
+.footer__navBar--list{
+margin-top: 0;
+}
+
